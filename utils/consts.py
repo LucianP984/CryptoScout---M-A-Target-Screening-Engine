@@ -10,10 +10,12 @@ SIZE_EFFICIENCY_WEIGHT = 0.30  # TVL / Market Cap ratio (capital efficiency)
 # Category descriptions for user education
 CATEGORY_DESCRIPTIONS = {
     'Dexs': 'Decentralized Exchanges - Platforms for peer-to-peer crypto trading without intermediaries (e.g., Uniswap, Curve)',
+    'Dexes': 'Decentralized Exchanges - Platforms for peer-to-peer crypto trading without intermediaries (e.g., Uniswap, Curve)',
     'Lending': 'Lending Protocols - DeFi platforms that enable users to lend and borrow crypto assets (e.g., Aave, Compound)',
     'Liquid Staking': 'Liquid Staking - Protocols that allow staking while maintaining liquidity through derivative tokens (e.g., Lido, Rocket Pool)',
     'CDP': 'Collateralized Debt Positions - Protocols for borrowing stablecoins against crypto collateral (e.g., MakerDAO)',
     'Yield': 'Yield Aggregators - Platforms that optimize yield farming strategies across DeFi (e.g., Yearn Finance)',
+    'Yield Aggregator': 'Yield Aggregators - Platforms that optimize yield farming strategies across DeFi (e.g., Yearn Finance)',
     'DEX Aggregator': 'DEX Aggregators - Tools that find the best prices across multiple decentralized exchanges',
     'Derivatives': 'Derivatives - Platforms for trading crypto futures, options, and perpetual contracts',
     'Bridge': 'Cross-Chain Bridges - Infrastructure for transferring assets between different blockchains',
@@ -27,4 +29,7 @@ CATEGORY_DESCRIPTIONS = {
     'Leveraged Farming': 'Leveraged Farming - Yield farming with built-in leverage/borrowing',
     'RWA': 'Real World Assets - Protocols tokenizing real-world assets like real estate, bonds',
     'Restaking': 'Restaking - Protocols that allow staked assets to be reused for additional security/yield',
+    'Services': 'Services - Infrastructure and utility services for the Web3 ecosystem',
+    'Service': 'Services - Infrastructure and utility services for the Web3 ecosystem',
+    'Chain': 'Chain - Layer 1 or Layer 2 blockchains',
 }

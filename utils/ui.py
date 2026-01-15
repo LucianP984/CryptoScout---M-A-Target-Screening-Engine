@@ -428,21 +428,24 @@ def render_metric_explanations():
     """Render detailed explanations for the financial metrics used."""
     with st.expander("ℹ️ Guide: Understanding the Metrics"):
         st.markdown("""
-        ### 📊 Financial Metrics Glossary
-        **💰 TVL**: Total Value Locked...
-        **💸 Annualized Revenue**: 30d Revenue * 12...
-        **📉 P/S Ratio**: Mcap / Revenue...
-        **🎯 Fair Value**: Revenue * Sector Median P/S...
-        **🚀 Venture Score**: 0-100 score based on Valuation Gap, Revenue Trend, Efficiency.
-        """)
+### 📊 Financial Metrics Glossary
+- **💰 TVL**: Total Value Locked - Total capital deposited in the protocol smart contracts.
+- **💸 Annualized Revenue**: 30d Revenue * 12 - Estimated yearly revenue based on last month's data.
+- **📉 P/S Ratio**: Mcap / Revenue - Price-to-Sales ratio. Low P/S (relative to peers) can indicate undervaluation.
+- **🎯 Fair Value**: Revenue * Sector Median P/S - Theoretical value if the protocol traded at the sector's median multiple.
+- **🚀 Venture Score**: 0-100 score based on Valuation Gap (40%), Revenue Trend (30%), and Efficiency (30%).
+""")
 
 
 def render_methodology():
     """Render the methodology explanation section."""
     with st.expander("📚 Methodology & Financial Logic"):
         st.markdown("""
-        ### How We Calculate Valuations
-        **1. Annualized Revenue**: 30-day revenue × 12
-        **2. P/S Ratio**: Market Cap / Annualized Revenue
-        **3. Venture Score (0-100)**: Composite of Valuation Gap, Trend, Efficiency.
-        """)
+### How We Calculate Valuations
+1. **Annualized Revenue**: 30-day revenue × 12
+2. **P/S Ratio**: Market Cap / Annualized Revenue
+3. **Venture Score (0-100)**: Composite of:
+    - Valuation Gap
+    - Revenue Trend
+    - Capital Efficiency
+""")
